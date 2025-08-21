@@ -1,5 +1,5 @@
-const double = (num) => {
-  return num * 10 ;
+const addTwoArguments = (price,shippingFee) => {
+  console.log(price * shippingFee)
 }
 
-console.log(double(10))
+addTwoArguments(10,10)
