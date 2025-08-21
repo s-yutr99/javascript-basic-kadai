@@ -1,5 +1,4 @@
-const addTwoArguments = (price,shippingFee) => {
-  console.log(price * shippingFee)
+const square = (num) => {
+  return num * num;
 }
-
-addTwoArguments(10,10)
+console.log(square(10));
