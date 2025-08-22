@@ -1,10 +1,8 @@
-const addBtn = document.getElementById('text');
+const text = document.getElementById('text');
 
-const parentList = document.getElementById('btn');
+const btn = document.getElementById('btn');
 
-parentList = addEventListener('click', () => {
-  const childList = document.createElement('li');
-  childList,textContent = 'ボタンをクリックしました';
-  addBtn.appendChild(childList)
-  addBtn.textContent = "ボタンをクリックしました"
+btn = addEventListener('click', () => {
+  text.textContent = 'ボタンをクリックしました';
+
 });
